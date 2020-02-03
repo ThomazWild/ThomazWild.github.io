@@ -45,7 +45,7 @@ ul li.active a{
     float: left;
     width: 200px;
     height: auto;
-    color: #f00;
+    color: rgb(99, 21, 21);
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
