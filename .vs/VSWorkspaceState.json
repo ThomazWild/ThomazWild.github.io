@@ -2,9 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\Beta",
-    "\\css",
-    "\\images"
+    "\\Beta\\omarflores.dev",
+    "\\Beta\\omarflores.dev\\css",
+    "\\Beta\\omarflores.dev\\favicon",
+    "\\Beta\\omarflores.dev\\js",
+    "\\Beta\\omarflores.dev\\vendor",
+    "\\js"
   ],
-  "SelectedNode": "\\Beta\\backblue.gif",
+  "SelectedNode": "\\Beta\\omarflores.dev\\css\\animate.css",
   "PreviewInSolutionExplorer": false
 }
