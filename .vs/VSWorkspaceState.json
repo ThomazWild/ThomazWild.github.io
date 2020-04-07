@@ -1,13 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Beta",
+    "\\Beta\\omarflores.dev",
     "\\Beta\\omarflores.dev\\css",
-    "\\Beta\\omarflores.dev\\favicon",
-    "\\Beta\\omarflores.dev\\js",
-    "\\Beta\\omarflores.dev\\vendor",
-    "\\css",
+    "\\Beta\\omarflores.dev\\vendor\\bootstrap",
+    "\\Beta\\omarflores.dev\\vendor\\bootstrap\\css",
+    "\\Beta\\omarflores.dev\\vendor\\bootstrap\\js",
+    "\\bootstrap\\js",
     "\\js"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\Beta\\omarflores.dev\\css\\mywebsite.css",
   "PreviewInSolutionExplorer": false
 }
