@@ -1,6 +1,7 @@
 canvas {
-    z-index: -2;
+    z-index: -1;
     position: absolute;
+    resize: both: 200%;
     top: 0;
     left: 0;
 }
