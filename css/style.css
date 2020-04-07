@@ -69,7 +69,7 @@ ul li.active a{
 }
 
 .title {
-    font: ai;
+    font-family: Ailerons;
     position: absolute;
     top: 50%;
     left: 50%;
