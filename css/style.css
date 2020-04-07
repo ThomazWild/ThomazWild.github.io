@@ -1,16 +1,22 @@
 canvas {
+
     z-index: -1;
     position: absolute;
-    resize: both: 200%;
+    
     top: 0;
     left: 0;
 }
 
-header{
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    overflow-x: hidden;
     height: 100vh;
     background-size: cover;
     background-position: center;
-
 }
 
 ul{
