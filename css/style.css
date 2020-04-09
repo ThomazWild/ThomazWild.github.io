@@ -81,6 +81,8 @@ ul li.active a{
 .title h1 {
     color: #fff;
     font-size: 70px;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
 }
 
 
@@ -99,6 +101,7 @@ ul li.active a{
 
 
 .intro-divider {
+    margin: auto;
     width: 102%;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
