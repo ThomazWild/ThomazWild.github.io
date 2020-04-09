@@ -5,6 +5,7 @@
     <!--REF-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/scrolling.js"></script>
 
     <!-- Adding the favicon to the website tab-->
     <LINK REL="SHORTCUT ICON"
@@ -21,7 +22,7 @@
             crossorigin="anonymous"></script>
 
     <script type="text/javascript">
-        $(window).on('scroll', function(){
+        $(window).on('scroll', function () {
             if ($(window).scrollTop()) {
                 $('nav').addClass('black');
             }
@@ -30,6 +31,35 @@
             }
         })
     </script>
+
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+
+
 
 </head>
 
@@ -53,8 +83,8 @@
 
 
             <ul>
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li class="active"><a href="#c">Home</a></li>
+                <li><a href="#About">About</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Gallery</a></li>
@@ -83,7 +113,7 @@
 
     </header>
 
-    <section class="content">
+    <section class="content" id="About">
         <h1>About me?</h1>
         <p>
             Working under the supervision of the Data Scientist team.

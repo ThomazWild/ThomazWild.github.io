@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Beta",
-    "\\Beta\\omarflores.dev",
     "\\Beta\\omarflores.dev\\css",
+    "\\css",
+    "\\images",
     "\\js"
   ],
-  "SelectedNode": "\\Beta\\omarflores.dev\\css\\mywebsite.css",
+  "SelectedNode": "\\js\\typing.js",
   "PreviewInSolutionExplorer": false
 }
