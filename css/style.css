@@ -83,20 +83,23 @@ ul li.active a{
     font-size: 65px;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
+    white-space: nowrap;
 }
 
 
-.title-typing {
+#title-typing {
     position: absolute;
-    top: 62%;
-    left: 50%;
     transform: translate(-50%, -50%);
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
 }
 
 .title-typing h2 {
     font-family: 'Julius Sans One', sans-serif;
     color: #fff;
     font-size: 30px;
+    text-align: center;
 }
 
 
