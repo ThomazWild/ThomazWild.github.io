@@ -2,19 +2,34 @@
 <html lang="en">
 <head>
     <title>Thomas Nay</title>
+    <!--REF-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Adding the favicon to the website tab-->
     <LINK REL="SHORTCUT ICON"
           HREF="favicon.ico">
+
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>S
 
     <!-- Adding new font to website -->
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
 
+    <!--Adding JSQuery to the HTML-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
 
+    <script type="text/javascript">
+        $(window).on('scroll', function(){
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+            else {
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
 
 </head>
 
@@ -32,7 +47,7 @@
 
 
         <nav>
-            <div class="main">
+            <div>
                 <div class="logo">
                     <img src="images/logo.png">
                 </div>
@@ -49,7 +64,7 @@
             </ul>
 
         </nav>
-        
+
 
         <div class="title">
             <hr class="intro-divider" />
@@ -64,14 +79,26 @@
 
         </div>
 
-        
+
 
 
 
     </header>
 
+    <section class="content">
+        <h1>About me?</h1>
+        <p>
+            Working under the supervision of the Data Scientist team.
+            I worked on various projects including Building a Robust Deep Learning /
+            Machine Learning method to detect Credit card fraud, a method to automatically
+            analyze and detect potential long term customers and a back-end server failure
+            predicting system that reports to the Data Engineer and Server manager in case
+            the system is failing.
+        </p>
+    </section>
+
     <section class="sec1"></section>
-    <section class="sec2"></section>
+
     <section class="sec3"></section>
     <section class="sec4"></section>
 
