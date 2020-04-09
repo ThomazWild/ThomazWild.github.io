@@ -40,9 +40,11 @@ nav{
 }
 
 nav.black{
-    background-color: red;
-    height: 70px;
+    background-color: black;
+    height: 68px;
     padding: 10px 50px;
+    filter: invert(100%);
+    z-index: 1;
 }
 
 nav ul{
