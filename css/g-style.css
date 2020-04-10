@@ -1,0 +1,136 @@
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+	font-family: 'Julius Sans One', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.txt-type > .txt {
+	border-right: 0.2rem solid #777;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	padding: 10px 100px;
+	box-sizing: border-box;
+	transition: .5s;
+}
+
+nav.black {
+	background-color: black;
+	height: 68px;
+	padding: 10px 50px;
+	filter: invert(100%);
+	z-index: 1;
+}
+
+nav ul {
+	float: right;
+	display: flex;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	list-style: armenian;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+nav ul li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+nav ul li.active a {
+	background-color: #fff;
+	color: #000;
+}
+
+nav .logo {
+	float: left;
+	padding-top: 5px;
+}
+
+nav h1 {
+	z-index: 2;
+	color: white;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+
+nav hr {
+	margin: auto;
+
+}
+
+.title {
+	font-family: 'Julius Sans One', sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-shadow: 0 1px 0 black;
+}
+
+.title h1 {
+	color: #fff;
+	font-size: 65px;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	white-space: nowrap;
+}
+
+
+#title-typing {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+	display: flex;
+	flex-direction: row;
+}
+
+.title-typing h2 {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+.intro-divider {
+	margin: auto;
+	width: 102%;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+
+.photographer {
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../images/Background-3.jpg");
+}
+
+.p1 {
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../images/Background-2.jpg");
+}

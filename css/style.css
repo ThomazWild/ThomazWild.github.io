@@ -167,7 +167,7 @@ section.sec1 {
 .about-img {
     position: relative;
     float: right;
-    padding-left: 300px
+    padding-left: 250px
 }
 section.about img {
     border-radius: 25px;
@@ -193,4 +193,16 @@ section.about img {
 
 .about2{
     background-color: white;
+}
+
+.about2-gif {
+    position: relative;
+    float: right;
+    padding-left: 200px
+}
+
+section.about2 img {
+    border-radius: 25px;
+    width: 300px;
+    height: auto;
 }

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thomas Nay</title>
+    <!--REF-->
+    <link rel="stylesheet" href="css/g-style.css">
+    <script src="https://kit.fontawesome.com/053c101d90.js" crossorigin="anonymous"></script>
+
+    <!-- Adding the favicon to the website tab-->
+    <LINK REL="SHORTCUT ICON"
+          HREF="favicon.ico">
+
+    <meta charset="UTF-8">
+
+    <!-- Adding new font to website -->
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+
+    <!--Adding JSQuery to the HTML-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+
+    <!--Header morphing-->
+    <script type="text/javascript">
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+            else {
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+
+
+
+</head>
+
+
+<body>
+    <header>
+
+        <div class="photographer">
+
+        </div>
+
+
+        <nav>
+            <div class="logo">
+                <hr />
+                <h1>
+
+                    THOMAZ NAY
+                </h1>
+                <hr />
+            </div>
+
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#c">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="active"><a href="#">Gallery</a></li>
+
+            </ul>
+
+        </nav>
+
+
+        <div class="title">
+            <hr class="intro-divider" />
+            <h1>THOMAS NAY</h1>
+            <hr class="intro-divider" />
+
+            <div class="title-typing">
+                <h2>
+                    <span class="txt-type" data-wait="1000" data-words='["Photographer", "Cinematographer"]'></span>
+                </h2>
+            </div>
+
+        </div>
+
+
+        <section class="p1"></section>
+
+
+    </header>
+
+
+
+    <script src="js/typing.js"></script>
+</body>
+
+</html>
