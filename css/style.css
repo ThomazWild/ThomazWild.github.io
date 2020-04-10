@@ -142,6 +142,34 @@ section.sec1 {
     background-image: url("../images/Background-2.jpg");
 }
 
-section.content{
-    padding: 100px
+section.content {
+    padding: 100px;
+}
+
+.container {
+    padding: 100px;
+    display: flex;
+}
+
+.row{
+    display: inline-flex;
+
+}
+.about1 {
+    background-color: lightgray;
+}
+
+.about1-text {
+    float: left;
+    resize: both;
+    width: 50vw;
+}
+
+.about1-img {
+    position: relative;
+    float: right;
+    padding-left: 200px
+}
+section.about1 img {
+    border-radius: 25px;
 }
