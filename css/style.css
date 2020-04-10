@@ -151,9 +151,9 @@ section.content {
     display: flex;
 }
 
-.row{
+.row {
     display: inline-flex;
-
+    overflow: hidden;
 }
 .about1 {
     background-color: lightgray;
@@ -168,8 +168,24 @@ section.content {
 .about1-img {
     position: relative;
     float: right;
-    padding-left: 200px
+    padding-left: 300px
 }
 section.about1 img {
     border-radius: 25px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
