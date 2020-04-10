@@ -162,12 +162,13 @@ section.sec1 {
     float: left;
     resize: both;
     width: 50vw;
+    font-size: 2vh;
 }
 
 .about-img {
     position: relative;
     float: right;
-    padding-left: 250px
+    padding-left: 15vw;
 }
 section.about img {
     border-radius: 25px;
@@ -198,11 +199,41 @@ section.about img {
 .about2-gif {
     position: relative;
     float: right;
-    padding-left: 200px
+    padding-left: 10vw;
 }
 
 section.about2 img {
     border-radius: 25px;
     width: 300px;
     height: auto;
+}
+
+footer{
+
+}
+
+.footer-container {
+    padding-top: 2vw;
+    padding-top: 2vw;
+    padding-left: 10vw;
+}
+
+footer a {
+    list-style: armenian;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.6s ease;
+    background-color:white;
+}
+
+footer a:hover {
+    filter: invert(100%);
+}
+
+footer p{
+    padding: 10px;
+    font-size: 1em;
 }
