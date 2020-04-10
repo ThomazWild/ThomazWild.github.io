@@ -182,10 +182,12 @@ section.about1 img {
     from {
         margin-left: 100%;
         width: 100%;
+        
     }
 
     to {
         margin-left: 0%;
         width: 100%;
+        opacity: 100;
     }
 }
