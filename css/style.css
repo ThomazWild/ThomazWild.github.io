@@ -142,37 +142,36 @@ section.sec1 {
     background-image: url("../images/Background-3.jpg");
 }
 
-section.content {
-    padding: 100px;
+.about {
+    background-color: lightgray;
 }
+
 
 .container {
     padding: 100px;
-    display: flex;
 }
 
 .row {
     display: inline-flex;
     overflow: hidden;
 }
-.about1 {
-    background-color: lightgray;
-}
 
-.about1-text {
+
+
+.about-text {
     float: left;
     resize: both;
     width: 50vw;
 }
 
-.about1-img {
+.about-img {
     position: relative;
     float: right;
     padding-left: 300px
 }
-section.about1 img {
+section.about img {
     border-radius: 25px;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-name: slidein;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -182,12 +181,16 @@ section.about1 img {
     from {
         margin-left: 100%;
         width: 100%;
-        
+        opacity: 0;
     }
 
     to {
         margin-left: 0%;
         width: 100%;
-        opacity: 100;
+        opacity: 1;
     }
+}
+
+.about2{
+    background-color: white;
 }
