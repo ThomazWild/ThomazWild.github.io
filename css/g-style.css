@@ -135,4 +135,31 @@ nav hr {
 	background-image: url("../images/Background-2.jpg");
 }
 
+.p2 {
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../gallery-images/IMG1.jpg");
+}
+
+.p3 {
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../gallery-images/IMG2.jpg");
+}
+
+.p4 {
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../gallery-images/IMG3.jpg");
+}
+
 
