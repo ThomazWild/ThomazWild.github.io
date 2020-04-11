@@ -36,15 +36,15 @@ nav{
     left: 0;
     width: 100%;
     height: 50px;
-    padding: 10px 100px;
+    padding: 10px 8vw;
     box-sizing: border-box;
     transition: .5s;
 }
 
-nav.black{
+nav.black {
     background-color: black;
     height: 68px;
-    padding: 10px 50px;
+    padding: 10px 15vw;
     filter: invert(100%);
     z-index: 1;
 }
