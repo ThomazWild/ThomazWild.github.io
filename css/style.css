@@ -143,16 +143,33 @@ section.sec1 {
 }
 
 .about {
-    background-color: lightgray;
+    background-color: #f1f3f5;
 }
 
 
 .container {
-    padding: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    position: center;
+}
+
+.container_2 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    position: center;
+
 }
 
 .row {
     display: inline-flex;
+    overflow: hidden;
+}
+
+.row_2 {
     overflow: hidden;
 }
 
@@ -237,3 +254,30 @@ footer p{
     padding: 10px;
     font-size: 1vw;
 }
+
+
+
+.project1{
+
+
+
+
+}
+
+
+table, th, td {
+    font-weight: bold;
+    border-top: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: .75rem;
+}
+
+th {
+    text-align: left;
+
+}
+

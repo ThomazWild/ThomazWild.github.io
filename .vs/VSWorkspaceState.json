@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\bootstrap",
+    "\\bootstrap\\css",
+    "\\bootstrap\\js",
     "\\css",
     "\\js"
   ],
-  "SelectedNode": "\\not.htaccess(closed)",
+  "SelectedNode": "\\bootstrap\\js",
   "PreviewInSolutionExplorer": false
 }
