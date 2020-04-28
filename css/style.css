@@ -26,6 +26,12 @@ header{
     display: inline-flex;
 }
 
+
+.blends {
+    padding-top: 3vh;
+    position: center;
+    background: linear-gradient(black, #fff);
+}
 .txt-type > .txt {
     border-right: 0.2rem solid #777;
 }
