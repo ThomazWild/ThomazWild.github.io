@@ -135,7 +135,7 @@ nav .logo img {
 
 section.sec1 {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -176,7 +176,6 @@ section.sec1 {
 
 
 .about-text {
-    float: left;
     resize: both;
     width: 50vw;
     font-size: 2vh;
@@ -184,10 +183,10 @@ section.sec1 {
 
 .about-img {
     position: relative;
-    float: right;
     padding-left: 15vw;
 }
-section.about img {
+
+.about-img img {
     border-radius: 25px;
     animation-duration: 4s;
     animation-name: slidein;
@@ -225,35 +224,6 @@ section.about2 img {
     height: auto;
 }
 
-footer{
-
-}
-
-.footer-container {
-    padding-top: 2vw;
-    padding-top: 2vw;
-    padding-left: 10vw;
-}
-
-footer a {
-    list-style: armenian;
-    text-decoration: none;
-    color: black;
-    padding: 5px 20px;
-    border: 1px solid black;
-    border-radius: 10px;
-    transition: 0.6s ease;
-    background-color:white;
-}
-
-footer a:hover {
-    filter: invert(100%);
-}
-
-footer p{
-    padding: 10px;
-    font-size: 1vw;
-}
 
 
 
@@ -286,3 +256,95 @@ td {
     font-weight: 300;
 }
 
+.table_img{
+
+}
+
+.contact {
+    background-image: url("../images/color_dust.jpg");
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-text {
+    color: white;
+}
+
+
+.contact-text h1{
+    font-weight: bold;
+    font-size: 5vh;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 7vh;
+}
+
+
+
+
+
+
+
+.contact ul {
+    justify-content: center;
+    display: flex;
+    align-self: center;
+
+}
+
+.contact ul li {
+    list-style: none;
+}
+
+.contact ul li a {
+    font-weight: bold;
+
+    list-style: armenian;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 50px;
+    border: 1px solid white;
+    border-radius: 25px;
+    transition: 0.6s ease;
+    border-radius: 25px;
+    padding: 0.5vw;
+    margin: 10px;
+
+}
+
+.contact ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+footer {
+}
+
+.footer-container {
+    padding-top: 2vw;
+    padding-top: 2vw;
+    padding-left: 10vw;
+}
+
+footer a {
+    list-style: armenian;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.6s ease;
+    background-color: white;
+}
+
+    footer a:hover {
+        filter: invert(100%);
+    }
+
+footer p {
+    padding: 10px;
+    font-size: 1vw;
+}
