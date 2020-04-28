@@ -266,7 +266,6 @@ footer p{
 
 
 table, th, td {
-    font-weight: bold;
     border-top: 2px solid #cccccc;
     border-bottom: 2px solid #cccccc;
     border-collapse: collapse;
@@ -278,6 +277,12 @@ th, td {
 
 th {
     text-align: left;
+    font-weight: bold;
 
+}
+
+td {
+    text-align: left;
+    font-weight: 300;
 }
 
