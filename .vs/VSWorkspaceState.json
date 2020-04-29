@@ -1,12 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\bootstrap",
     "\\bootstrap\\css",
     "\\bootstrap\\js",
     "\\css",
+    "\\images",
     "\\js"
   ],
-  "SelectedNode": "\\bootstrap\\js",
+  "SelectedNode": "\\images\\github-logo.png",
   "PreviewInSolutionExplorer": false
 }
