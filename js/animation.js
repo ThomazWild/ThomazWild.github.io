@@ -5,27 +5,27 @@ var w = c.width = window.innerWidth,
     
     opts = {
       
-      len: 20,
+      len: 50,
       count: 50,
-      baseTime: 10,
+      baseTime: 50,
       addedTime: 10,
-      dieChance: .05,
+      dieChance: .03,
       spawnChance: 1,
-      sparkChance: .1,
-      sparkDist: 10,
-      sparkSize: 2,
+      sparkChance: .005,
+      sparkDist: 100,
+      sparkSize: 1,
       
       color: 'hsl(hue,100%,light%)',
-      baseLight: 50,
+      baseLight: 10,
       addedLight: 10, // [50-10,50+10]
-      shadowToTimePropMult: 6,
+      shadowToTimePropMult: 0,
       baseLightInputMultiplier: .01,
       addedLightInputMultiplier: .02,
       
       cx: w / 2,
       cy: h / 2,
-      repaintAlpha: .04,
-      hueChange: .1
+      repaintAlpha: 0.02,
+      hueChange: .08
     },
     
     tick = 0,
@@ -46,7 +46,7 @@ function loop() {
   
   ctx.globalCompositeOperation = 'source-over';
   ctx.shadowBlur = 0;
-  ctx.fillStyle = 'rgba(0,0,0,alp)'.replace( 'alp', opts.repaintAlpha );
+    ctx.fillStyle = 'rgba(0, 0, 0,alp)'.replace( 'alp', opts.repaintAlpha );
   ctx.fillRect( 0, 0, w, h );
   ctx.globalCompositeOperation = 'lighter';
   
