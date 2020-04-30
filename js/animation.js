@@ -7,7 +7,7 @@ var w = c.width = window.innerWidth,
       
       len: 50,
       count: 50,
-      baseTime: 50,
+      baseTime: 30,
       addedTime: 10,
       dieChance: .03,
       spawnChance: 1,
