@@ -2,26 +2,19 @@
 <html lang="en">
 <head>
     <title>Thomas Nay</title>
-    <!--REF-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/053c101d90.js" crossorigin="anonymous"></script>
 
-    <!-- Adding the favicon to the website tab-->
-    <LINK REL="SHORTCUT ICON"
-          HREF="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+
+    <LINK REL="SHORTCUT ICON" HREF="favicon.ico">
 
     <meta charset="UTF-8">
 
-    <!-- Adding new font to website -->
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
 
-    <!--Adding JSQuery to the HTML-->
     <script src="https://code.jquery.com/jquery-3.4.1.js"
             integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
             crossorigin="anonymous"></script>
 
-    <!--Header morphing-->
     <script type="text/javascript">
         $(window).on('scroll', function () {
             if ($(window).scrollTop()) {
@@ -60,6 +53,7 @@
         });
     </script>
 
+    <script src="js/typing.js"></script>
 
 
 </head>
@@ -69,9 +63,7 @@
     <header>
 
         <div>
-            <<!-- partial:index.partial.html -->
             <canvas id=c></canvas>
-            <!-- partial -->
             <script src="js/animation.js"></script>
 
         </div>
@@ -225,23 +217,11 @@
             </div>
         </div>
     </section>
-
-
-
-    <!--Adding copyright claim to the document-->
     <footer>
         <div class="footer-container">
-            <a href="#c" role="button">
-                Home
-            </a>
-
+            <a href="#c" role="button">Home</a>
             <p>&copy; Copyright 2020 Thomas Nay</p>
         </div>
     </footer>
-
-    <!--Importing some script for the page-->
-    <script src="js/button-index.js"></script>
-    <script src="js/typing.js"></script>
 </body>
-
 </html>
