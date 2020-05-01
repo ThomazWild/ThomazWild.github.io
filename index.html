@@ -28,53 +28,37 @@
 
     <script>
         $(document).ready(function () {
-            // Add smooth scrolling to all links
             $("a").on('click', function (event) {
-
-                // Make sure this.hash has a value before overriding default behavior
                 if (this.hash !== "") {
-                    // Prevent default anchor click behavior
                     event.preventDefault();
-
-                    // Store hash
                     var hash = this.hash;
-
                     // Using jQuery's animate() method to add smooth page scroll
                     // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
                     $('html, body').animate({
                         scrollTop: $(hash).offset().top
                     }, 800, function () {
-
-                        // Add hash (#) to URL when done scrolling (default click behavior)
                         window.location.hash = hash;
                     });
-                } // End if
+                }
             });
         });
     </script>
 
     <script src="js/typing.js"></script>
-
-
 </head>
 
 
 <body>
     <header>
-
         <div>
             <canvas id=c></canvas>
             <script src="js/animation.js"></script>
 
         </div>
-
-
         <nav>
             <div class="logo">
                 <img src="images/logo.png">
             </div>
-
-
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="#About">About</a></li>
@@ -82,7 +66,6 @@
                 <li><a href="#Contact">Contact</a></li>
                 <li><a href="Gallery">Gallery</a></li>
             </ul>
-
         </nav>
 
 
@@ -96,13 +79,7 @@
                     <span class="txt-type" data-wait="1000" data-words='["Data Scientist", "Software Developer", "Data Analyst"]'></span>
                 </h2>
             </div>
-
         </div>
-
-
-
-
-
     </header>
 
     <section class="blends"></section>
@@ -217,6 +194,7 @@
             </div>
         </div>
     </section>
+
     <footer>
         <div class="footer-container">
             <a href="#c" role="button">Home</a>
