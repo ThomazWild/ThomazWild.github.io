@@ -100,19 +100,52 @@ nav .logo img {
 .title {
     font-family: 'Julius Sans One', sans-serif;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 0 1px 0 black;
+
+    
 }
 
-.title h1 {
+.title h1{
     color: #fff;
     font-size: 65px;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
     white-space: nowrap;
+
+    animation-name: peek-in;
+    animation-timing-function: ease-in-out;
+    animation-duration: 6s;
 }
+
+
+@keyframes peek-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes peek-in-div {
+    from {
+        width: 50%;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        opacity: 0;
+    }
+
+    to {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        opacity: 1;
+    }
+}
+
 
 
 #title-typing {
@@ -128,14 +161,21 @@ nav .logo img {
     color: #fff;
     font-size: 30px;
     text-align: center;
+    animation-name: peek-in;
+    animation-timing-function: cubic-bezier(1,.12,.5,.79);
+    animation-duration: 4s;
+    transition-delay: 2s;
 }
 
 
 .intro-divider {
-    margin: auto;
-    width: 102%;
+    width: 100%;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+    animation-name: peek-in-div;
+    animation-timing-function: ease;
+    animation-duration: 5s;
 }
 
 
