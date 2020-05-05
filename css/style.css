@@ -39,7 +39,7 @@ nav{
     height: 50px;
     padding: 10px 8vw;
     box-sizing: border-box;
-    transition: .5s;
+    transition: .8s;
 }
 nav.black {
     background-color: black;
