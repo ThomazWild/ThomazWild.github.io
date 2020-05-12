@@ -6,8 +6,12 @@ html, body {
 	padding: 0px;
 }
 
-.txt-type > .txt {
-	border-right: 0.2rem solid #777;
+body {
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(99,99,99,1) 100%);
+	background-size: cover;
+	height: 100vh;
+	width: auto;
 }
 
 nav {
@@ -16,17 +20,19 @@ nav {
 	left: 0;
 	width: 100%;
 	height: 50px;
-	padding: 10px 100px;
+	padding: 1px 70px;
 	box-sizing: border-box;
 	transition: .5s;
+	background: rgb(0,0,0);
+	background: linear-gradient(90deg, rgba(0,0,0,0.7665660014005602) 0%, rgba(255,255,255,0) 50%, rgba(0,0,0,0.774969362745098) 100%);
 }
 
 nav.black {
-	background-color: black;
 	height: 68px;
 	padding: 10px 50px;
-	filter: invert(100%);
 	z-index: 1;
+	background: black;
+	filter: invert(100%);
 }
 
 nav ul {
@@ -118,48 +124,48 @@ nav hr {
 
 
 .photographer {
-	width: 100%;
+	width: auto;
 	height: 100vh;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
-	background-image: url("../gallery-images/Background-3.jpg");
+	background-image: url("../gallery-images/Avatar.jpg");
 }
 
 .p1 {
-	width: 100%;
+	width: auto;
 	height: 100vh;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
-	background-image: url("../gallery-images/Background-2.jpg");
+	background-image: url("../gallery-images/p1.png");
 }
 
 .p2 {
-	width: 100%;
+	width: auto;
 	height: 100vh;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
-	background-image: url("../gallery-images/IMG1.jpg");
+	background-image: url("../gallery-images/p2.jpg");
 }
 
 .p3 {
-	width: 100%;
+	width: auto;
 	height: 100vh;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
-	background-image: url("../gallery-images/IMG2.jpg");
+	background-image: url("../gallery-images/p3.jpg");
 }
 
 .p4 {
-	width: 100%;
+	width: auto;
 	height: 100vh;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
-	background-image: url("../gallery-images/IMG3.jpg");
+	background-image: url("../gallery-images/p4.jpg");
 }
 
 
