@@ -120,3 +120,34 @@ nav hr {
 }
 
 
+.p5 {
+	width: auto;
+	height: 100vh;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../gallery-images/p4.jpg");
+}
+
+
+.p6 {
+	width: auto;
+	height: 100vh;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../gallery-images/p4.jpg");
+}
+
+
+.p7 {
+	width: auto;
+	height: 100vh;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../gallery-images/p4.jpg");
+}
+
+
+
