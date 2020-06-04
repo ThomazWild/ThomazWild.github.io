@@ -3,7 +3,10 @@ html, body {
 	overflow-x: hidden;
 	font-family: 'Julius Sans One', sans-serif;
 	margin: 0;
-	margin-top: 50px;
+}
+
+body{
+		margin-top: 50px;
 }
 
 nav {
@@ -70,7 +73,7 @@ Null {
 }
 	*/
 
-}.row {
+.row {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0 0px;
