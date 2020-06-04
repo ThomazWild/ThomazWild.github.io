@@ -72,8 +72,10 @@ Null {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0 4px;
-	margin-top: 12vh;
+	margin-top: 5vh;
 }
+
+
 
 /* Create four equal columns that sits next to each other */
 .column {
@@ -104,6 +106,7 @@ Null {
 		flex: 50%;
 		max-width: 50%;
 	}
+
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -114,3 +117,9 @@ Null {
 	}
 }
 
+
+.column_2 {
+	flex: 50%;
+	max-width: 50%;
+	padding: 0 0px;
+}
