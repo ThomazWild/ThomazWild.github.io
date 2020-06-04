@@ -3,6 +3,7 @@ html, body {
 	overflow-x: hidden;
 	font-family: 'Julius Sans One', sans-serif;
 	margin: 0;
+	margin-top: 50px;
 }
 
 nav {
