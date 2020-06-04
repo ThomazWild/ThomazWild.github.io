@@ -2,19 +2,11 @@ html, body {
 	max-width: 100%;
 	overflow-x: hidden;
 	font-family: 'Julius Sans One', sans-serif;
-	margin: 0px;
-	padding: 0px;
-}
 
-body {
-	background: rgb(255,255,255);
-	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(99,99,99,1) 100%);
-	background-size: cover;
-	height: 100vh;
-	width: auto;
 }
 
 nav {
+	z-index: 10;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -27,13 +19,6 @@ nav {
 	background: linear-gradient(90deg, rgba(0,0,0,0.7665660014005602) 0%, rgba(255,255,255,0) 50%, rgba(0,0,0,0.774969362745098) 100%);
 }
 
-nav.black {
-	height: 68px;
-	padding: 10px 50px;
-	z-index: 1;
-	background: black;
-	filter: invert(100%);
-}
 
 nav ul {
 	float: right;
@@ -73,44 +58,8 @@ nav hr {
 
 }
 
-
-.photographer {
-	width: auto;
-	height: 100vh;
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url("../gallery-images/Avatar.jpg");
-}
-
-.p1 {
-	width: auto;
-	height: 100vh;
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url("../gallery-images/p1.png");
-}
-
-.p2 {
-	width: auto;
-	height: 100vh;
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url("../gallery-images/p2.jpg");
-}
-
-.p3 {
-	width: auto;
-	height: 100vh;
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url("../gallery-images/p3.jpg");
-}
-
-.p4 {
+/* Storing for future use
+Null {
 	width: auto;
 	height: 100vh;
 	background-position: center;
@@ -118,36 +67,51 @@ nav hr {
 	background-repeat: no-repeat;
 	background-image: url("../gallery-images/p4.jpg");
 }
-
-
-.p5 {
-	width: auto;
-	height: 100vh;
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url("../gallery-images/p4.jpg");
+	*/
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+	padding-top: 70px;
 }
 
-
-.p6 {
-	width: auto;
-	height: 100vh;
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url("../gallery-images/p4.jpg");
+/* Create four equal columns that sits next to each other */
+.column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 0px;
 }
 
-
-.p7 {
-	width: auto;
-	height: 100vh;
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url("../gallery-images/p4.jpg");
+.column img {
+	position: relative;
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+	margin: 0 auto;
+	filter: contrast(90%);
+	z-index: 1;
+	transition: cubic-bezier(.75,.17,.83,.67);
+	transition: 1s ease;
 }
 
+.column img:target {
+	z-index: 30;
+	filter: contrast(100%);
+	transform: scale(1.2);
+}
 
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+	.column {
+		flex: 50%;
+		max-width: 50%;
+	}
+}
 
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column {
+		flex: 100%;
+		max-width: 100%;	
+	}
+}

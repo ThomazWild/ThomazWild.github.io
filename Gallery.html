@@ -28,33 +28,21 @@
         $(document).ready(function () {
             // Add smooth scrolling to all links
             $("a").on('click', function (event) {
-
-                // Make sure this.hash has a value before overriding default behavior
                 if (this.hash !== "") {
-                    // Prevent default anchor click behavior
                     event.preventDefault();
-
-                    // Store hash
                     var hash = this.hash;
-
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
                     $('html, body').animate({
                         scrollTop: $(hash).offset().top
                     }, 800, function () {
-
-                        // Add hash (#) to URL when done scrolling (default click behavior)
                         window.location.hash = hash;
                     });
-                } // End if
+                }
             });
         });
     </script>
 </head>
 <body>
     <header>
-        <div class="photographer"></div>
-
         <nav>
             <div class="logo">
                 <hr />
@@ -66,19 +54,48 @@
                 <li class="active"><a href="#">Gallery</a></li>
             </ul>
         </nav>
-        <section class="p1"></section>
-        <section class="p2"></section>
-        <section class="p3"></section>
-        <section class="p4"></section>
-        <section class="p5"></section>
-        <section class="p6"></section>
-        <section class="p7"></section>
-
-
-
-
-
     </header>
+
+    <div class="row">
+        <div class="column">
+            <img src="gallery-images/p4.jpg">
+            <img src="gallery-images/p4.jpg">
+            <img src="gallery-images/p4.jpg">
+            <img src="paris.jpg">
+            <img src="nature.jpg">
+            <img src="mist.jpg">
+            <img src="paris.jpg">
+        </div>
+
+        <div class="column">
+            <img src="gallery-images/p3.jpg">
+            <img src="ocean.jpg">
+            <img src="wedding.jpg">
+            <img src="mountainskies.jpg">
+            <img src="rocks.jpg">
+            <img src="underwater.jpg">
+        </div>
+
+        <div class="column">
+            <img src="gallery-images/p2.jpg">
+            <img src="rocks.jpg">
+            <img src="falls2.jpg">
+            <img src="paris.jpg">
+            <img src="nature.jpg">
+            <img src="mist.jpg">
+            <img src="paris.jpg">
+        </div>
+
+        <div class="column">
+            <img src="gallery-images/Avatar.jpg">
+            <img src="ocean.jpg">
+            <img src="wedding.jpg">
+            <img src="mountainskies.jpg">
+            <img src="rocks.jpg">
+            <img src="underwater.jpg">
+        </div>
+    </div>
+
     <footer>&copy; Copyright 2020 Thomas Nay</footer>
 </body>
 
