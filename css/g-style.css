@@ -70,12 +70,6 @@ Null {
 }
 	*/
 
-.row_top {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 0 0px;
-	margin-top: 50px;
-
 }.row {
 	display: flex;
 	flex-wrap: wrap;
