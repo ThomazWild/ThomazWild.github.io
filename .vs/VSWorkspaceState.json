@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\gallery-images",
+    "\\gallery-images\\Night",
+    "\\gallery-images\\Night\\Wide",
     "\\images",
     "\\res"
   ],
-  "SelectedNode": "\\res\\RESUME-JABA.pdf",
+  "SelectedNode": "\\gallery-images\\Night\\Wide",
   "PreviewInSolutionExplorer": false
 }
