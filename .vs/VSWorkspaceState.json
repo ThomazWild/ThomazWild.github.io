@@ -2,11 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\gallery-images",
-    "\\gallery-images\\Night",
     "\\gallery-images\\Night\\Wide",
     "\\images",
     "\\res"
   ],
-  "SelectedNode": "\\gallery-images\\Night\\Wide",
+  "SelectedNode": "\\gallery-images\\Night",
   "PreviewInSolutionExplorer": false
 }
