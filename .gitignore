@@ -1,1 +1,4 @@
-.vs
+*.vs
+*.env
+config.js
+*.js
